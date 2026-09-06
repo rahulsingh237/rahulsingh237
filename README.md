@@ -3,7 +3,7 @@
 I'm a developer with over 5 years of experience working in software development, AI & LLMs development. Completed my **Masters in AI/ML**. I'm passionate about building intelligent, scalable systems and contributing actively to **Open Source** 🤝.
 
 *   🧠 **Core Interests:** Deep Learning, AI/ML Applications, Microservices, Distributed Systems, Open Source.
-*   🌱 **Currently:** Enhancing **[`srbhr/Resume-Matcher`](https://github.com/srbhr/Resume-Matcher)** (⭐️ 28.2k+), focusing on `new version of Resume-Matcher with better performance and integrating with better models`.
+*   🌱 **Currently:** Enhancing **[`srbhr/Resume-Matcher`](https://github.com/srbhr/Resume-Matcher)** (⭐️ 28.3k+), focusing on `new version of Resume-Matcher with better performance and integrating with better models`.
 
 ---
 
