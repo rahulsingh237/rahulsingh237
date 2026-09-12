@@ -2,108 +2,72 @@
 
 # Rahul Veer Singh
 
-**I build agentic AI systems — and the backends that keep them fast.**
+**Building high-throughput backends and the agentic AI systems that run on them.**<br>
+Group SDE 2 @ DP World · Bangalore, India
 
-AI & backend engineer · agentic systems, RAG, MCP<br>
-Group SDE 2 · DP World · Bangalore, India
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-rrvrs.github.io-0D9488?style=for-the-badge&logo=safari&logoColor=white)](https://rrvrs.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahulveersingh)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:singhveerrahul@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Website-rrvrs.github.io-0D9488?style=flat-square&logo=safari&logoColor=white)](https://rrvrs.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahulveersingh)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:singhveerrahul@gmail.com)
 
 <br>
 
-| **28.4k ★** | **72.3% faster** | **2B+ / day** |
+| 🚀 **2 Billion+** | ⚡ **72.3%** | ⭐ **28.4k** |
 |:---:|:---:|:---:|
-| RAG engine I architected | issuance, via an agentic validator | events in production |
+| Events processed daily in production | Latency drop in issuance via Agentic RAG | Open-source impact on GitHub |
 
 </div>
 
 ---
 
-## 🤖 Selected work
+## 🏗️ Architecture & Engineering Impact
+
+I focus on distributed systems and moving LLMs out of notebooks and into production-grade pipelines.
+
+*   **Agentic AI at Scale:** Architected a RAG engine paired with an agentic validator that audits e-applications and autonomously generates fix-sheets. **Reduced issuance time by 72.3%.**
+*   **High-Throughput Backends:** Designed and scaled Kafka-driven event pipelines processing **over 2 billion events per day**. Refactored a legacy reactive engine using Java virtual threads, driving execution time **from 20s down to under 1s**.
+*   **LLM Observability & Reliability:** Integrated self-hosted LangFuse and OpenTelemetry to trace agent decisions, turning black-box models into tuneable, deterministic systems.
+
+---
+
+## 💻 Selected Open Source
 
 ### [`jira-alerts-mcp`](https://github.com/rrvrs/jira-alerts-mcp)
-
 [![npm](https://img.shields.io/npm/v/jira-alerts-mcp.svg?style=flat-square&logo=npm&color=0D9488)](https://www.npmjs.com/package/jira-alerts-mcp)
-[![downloads](https://img.shields.io/npm/dm/jira-alerts-mcp.svg?style=flat-square&color=0D9488)](https://www.npmjs.com/package/jira-alerts-mcp)
-[![CI](https://img.shields.io/github/actions/workflow/status/rrvrs/jira-alerts-mcp/ci.yml?style=flat-square&label=CI)](https://github.com/rrvrs/jira-alerts-mcp/actions/workflows/ci.yml)
+**Bridging the gap between LLM agents and on-call operations.** 
+Standard Jira MCPs miss the operations layer. I built one specifically for Jira Service Management so agents can instantly see what's paging and who is on call.
 
-**An MCP server that tells your agent what's paging you, and who's on call.**
-Jira Service Management Operations — the alert surface no other Jira MCP covers.
+*   **Massive Tool Surface:** Exposes 81 specialized tools across 7 toolsets, optimized for model selection context limits.
+*   **Zero-Trust Releases:** Every tool is strictly verified against a live JSM site via automated CI testing. Unverified endpoints are aggressively quarantined at runtime.
 
-- **81 tools, cut into 7 toolsets** a model can actually choose from.
-- **Every tool verified against a live JSM site** before release — a test enforces it.
-- Quarantines what it couldn't verify, and says so at runtime.
+### [`Resume-Matcher`](https://github.com/srbhr/Resume-Matcher)
+[![stars](https://img.shields.io/github/stars/srbhr/Resume-Matcher?style=flat-square&logo=github&color=0D9488)](https://github.com/srbhr/Resume-Matcher) 
+**Core Maintainer on a system that reverse-engineers ATS scoring.**
 
-`TypeScript` · `MCP` · `Node ≥ 24` · on [npm](https://www.npmjs.com/package/jira-alerts-mcp) and [mcpservers.org](https://mcpservers.org/servers/rrvrs/jira-alerts-mcp)
-
-### [`srbhr/Resume-Matcher`](https://github.com/srbhr/Resume-Matcher)
-
-[![stars](https://img.shields.io/github/stars/srbhr/Resume-Matcher?style=flat-square&logo=github&color=0D9488)](https://github.com/srbhr/Resume-Matcher)
-[![PRs merged](https://img.shields.io/badge/PRs%20merged-23-0D9488?style=flat-square)](https://github.com/srbhr/Resume-Matcher/pulls?q=is%3Apr+author%3Arrvrs+is%3Amerged)
-
-**Maintainer and core contributor** on one of the most-starred resume tools on GitHub.
-
-- Architected the **RAG engine** — LangChain, LangGraph, QdrantDB.
-- It reverse-engineers ATS scoring to tell you why a resume ranks where it does.
-- Built the GitHub Actions + Docker pipeline that automates releases.
-
-`LangGraph` · `QdrantDB` · `Next.js` · `Docker`
+*   **RAG Architecture:** Designed and implemented the core retrieval engine using LangChain, LangGraph, and QdrantDB.
+*   **DevOps:** Built the complete CI/CD pipeline using GitHub Actions and Docker to fully automate the release lifecycle.
 
 ---
 
-## ⚡ What I build
+## 🧰 The Stack
 
-- **Agentic AI in production.** A RAG validator that audits e-applications and writes its own fix-sheets — 72.3% off issuance time.
-- **LLM observability.** Self-hosted LangFuse and OpenTelemetry, turning a black-box agent into something you can actually tune.
-- **High-throughput backends.** Kafka pipelines at 2B+ events/day; a reactive engine on virtual threads that took 20s to under 1s.
-- **Developer tooling.** MCP servers, CI/CD, and the unglamorous work that makes a tool safe to depend on.
-
----
-
-## 🧰 Toolkit
-
-<div align="center">
-
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-
-</div>
+*   **AI & Agents:** `LangGraph` · `LangChain` · `MCP` · `Python` · `Qdrant`
+*   **Distributed Systems:** `Java` · `Kafka` · `Virtual Threads` · `Node.js`
+*   **Infrastructure:** `AWS` · `Docker` · `GitHub Actions` · `OpenTelemetry`
 
 ---
 
 <details>
-<summary><b>📚 Research & publications — 4 international conference papers</b></summary>
+<summary><b>📚 Academic Background & Publications</b></summary>
 
 <br>
 
-Earlier academic work, on cybersecurity and deep learning.
+**M.Tech, Artificial Intelligence & Machine Learning** — BITS Pilani (2026)  
+**B.Tech, Computer Science** — GGSIP University (2021)
 
-*   Rahul Veer Singh, Bharat Bhushan, Ashi Tyagi (2021). [`Big Data Analytics for WSNs and Smart Grids: Applications, Design Issues and Future Challenges`](https://doi.org/10.1201/9781003107521-8). In Integration of WSNs into Internet of Things, A Security Perspective, ©2021, doi: [`https://doi.org/10.1201/9781003107521-8`](https://doi.org/10.1201/9781003107521-8)
-*   Rahul Veer Singh, Bharat Bhushan, Lakshit Malhotra (2021). [`Artificial Intelligence and Deep Learning-based Solutions to Enhance Cyber Security`](https://doi.org/10.2139/ssrn.3833311). In 4th International Conference on Innovative Computing and Communication, 2021. doi: [`https://doi.org/10.2139/ssrn.3833311`](https://doi.org/10.2139/ssrn.3833311)
-*   Rahul Veer Singh, Bharat Bhushan, Ashi Tyagi (2020). [`Deep Learning Framework for Cybersecurity: Framework, Applications, and Future Research Trends`](https://doi.org/10.1007/978-981-33-4367-2_80). In 2nd International Conference on Emerging Technologies in Data Mining and Information Security, 2020. doi: [`https://doi.org/10.1007/978-981-33-4367-2_80`](https://doi.org/10.1007/978-981-33-4367-2_80)
-*   Rahul Veer Singh, Ashi Tyagi, Srishti Sharma (2020). [`Data Hiding Techniques Using Steganography Algorithms`](http://computers.stmjournals.com/index.php?journal=JoADMS&page=article&op=view&path%5B%5D=2426). In JoADMS 2020, STM Journals.
-
-**M.Tech, AI & ML** — BITS Pilani (WILP), 2026 · **B.Tech, Computer Science** — GGSIP University, 2021
+*Published 4 international conference papers on distributed systems security and deep learning:*
+*   *Big Data Analytics for WSNs and Smart Grids* (2021) - [DOI](https://doi.org/10.1201/9781003107521-8)
+*   *AI and Deep Learning-based Solutions to Enhance Cyber Security* (2021) - [DOI](https://doi.org/10.2139/ssrn.3833311)
+*   *Deep Learning Framework for Cybersecurity* (2020) - [DOI](https://doi.org/10.1007/978-981-33-4367-2_80)
+*   *Data Hiding Techniques Using Steganography Algorithms* (2020) - [Link](http://computers.stmjournals.com/index.php?journal=JoADMS&page=article&op=view&path%5B%5D=2426)
 
 </details>
-
----
-
-<div align="center">
-
-**Always up for a good systems problem** — agentic AI, backend architecture, or open source.
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-rrvrs.github.io-0D9488?style=for-the-badge&logo=safari&logoColor=white)](https://rrvrs.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahulveersingh)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:singhveerrahul@gmail.com)
-
-</div>
